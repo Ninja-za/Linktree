@@ -1,0 +1,93 @@
+.img-william-avatar {
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 5px solid rgb(0, 0, 0);
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(25, 25, 26);
+    color: rgba(211, 204, 204);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Tahoma, sans-serif
+}
+
+.header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(59, 59, 59);
+}
+
+
+.share-button{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(25, 25, 26);
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color:rgb(211, 204, 204)
+}
+
+.tile {
+    width: 100%;
+    background-color: rgb(32, 33, 36);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.141,.82,1.41) 0.2s;
+    transform: scale(1.04);
+
+
+}
+
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52,52,52);
+}
+
+.tile-share-button svg {
+    margin-left:12px;
+    margin-top:12px;
+
+}
+
+
+
+.icon {
+    margin: 4px 8px;
+    height: 44px;
+    width: 44px;
+
+}
